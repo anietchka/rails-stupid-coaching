@@ -1,0 +1,27 @@
+// Place all the styles related to the answers controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+a{
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+}
+
+.question,
+.answer{
+  border-left-color: rgba(0,0,0,0.2);
+  border-left-style: solid;
+  padding-left: 10px;
+  border-left-width: 5px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.answer{
+  background-color: #FFFFE1;
+}
